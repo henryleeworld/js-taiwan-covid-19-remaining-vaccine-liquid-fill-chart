@@ -1,13 +1,13 @@
 var options = [{
         series: [{
             type: 'liquidFill',
-            data: [0.044],
+            data: [],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '臺北市\n\n4.4%'
+                formatter: '臺北市\n\n0%'
             }
         }]
     },
@@ -53,13 +53,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.123, , , 0.073],
+            data: [0.071],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '桃園市\n\n12.3%'
+                formatter: '桃園市\n\n7.1%'
             }
         }]
     },
@@ -79,13 +79,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.115, , , 0.065],
+            data: [0.093],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '彰化縣\n\n11.5%'
+                formatter: '彰化縣\n\n9.3%'
             }
         }]
     },
@@ -111,7 +111,7 @@ var options = [{
                 show: true
             },
             label: {
-                formatter: '雲林縣\n\n0%'
+                formatter: '新竹縣\n\n0%'
             }
         }]
     },
@@ -137,7 +137,20 @@ var options = [{
                 show: true
             },
             label: {
-                formatter: '新竹縣\n\n0%'
+                formatter: '雲林縣\n\n0%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '花蓮縣\n\n0%'
             }
         }]
     },
@@ -151,19 +164,6 @@ var options = [{
             },
             label: {
                 formatter: '嘉義市\n\n0%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.034],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '花蓮縣\n\n3.4%'
             }
         }]
     },
@@ -209,13 +209,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.169, , , 0.119],
+            data: [0.139, , , 0.089],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '基隆市\n\n16.9%'
+                formatter: '基隆市\n\n13.9%'
             }
         }]
     },
@@ -248,39 +248,39 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.123, , , 0.073],
+            data: [0.051],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '澎湖縣\n\n12.3%'
+                formatter: '澎湖縣\n\n5.1%'
             }
         }]
     },
     {
         series: [{
             type: 'liquidFill',
-            data: [0.058],
+            data: [0.043],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '金門縣\n\n5.8%'
+                formatter: '金門縣\n\n4.3%'
             }
         }]
     },
     {
         series: [{
             type: 'liquidFill',
-            data: [0.284, , , 0.234],
+            data: [0.207, , , 0.157],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '連江縣\n\n28.4%'
+                formatter: '連江縣\n\n20.7%'
             }
         }]
     }
@@ -309,7 +309,6 @@ for (var i = 0; i < options.length; ++i) {
             }
         }]
     });
-
     charts.push(chart);
 }
 $(window).resize(function() {
