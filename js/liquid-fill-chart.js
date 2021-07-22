@@ -1,13 +1,13 @@
 var options = [{
         series: [{
             type: 'liquidFill',
-            data: [0.052],
+            data: [0.291],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '新北市\nAZ\n\n5.2%'
+                formatter: '新北市\nAZ\n\n29.1%'
             }
         }]
     },
@@ -15,7 +15,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.17,
+                value: 0.04,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -28,7 +28,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '新北市\nModerna\n\n17%',
+                formatter: '新北市\nModerna\n\n4%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -40,442 +40,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.075],
+            data: [0.264],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '臺北市\nAZ\n\n7.5%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.17,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '臺北市\nModerna\n\n17%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.022],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '高雄市\nAZ\n\n2.2%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.2,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '高雄市\nModerna\n\n20%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.025],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '臺中市\nAZ\n\n2.5%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.21,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '臺中市\nModerna\n\n21%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.083],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '桃園市\nAZ\n\n8.3%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.11,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '桃園市\nModerna\n\n11%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.053],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '臺南市\nAZ\n\n5.3%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.11,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '臺南市\nModerna\n\n11%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.083],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '彰化縣\nAZ\n\n8.3%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.12,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '彰化縣\nModerna\n\n12%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.033],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '屏東縣\nAZ\n\n3.3%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.13,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '屏東縣\nModerna\n\n13%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.058],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '雲林縣\nAZ\n\n5.8%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.18,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '雲林縣\nModerna\n\n18%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.027],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '苗栗縣\nAZ\n\n2.7%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.15,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '苗栗縣\nModerna\n\n15%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.102],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '嘉義縣\nAZ\n\n10.2%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.32,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '嘉義縣\nModerna\n\n32%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.047],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '宜蘭縣\nAZ\n\n4.7%'
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [{
-                value: 0.19,
-                itemStyle: {
-                    color: '#ff7777',
-                    opacity: 0.7
-                }
-            }],
-            radius: '70%',
-            outline: {
-                itemStyle: {
-                    borderColor: '#ff7777'
-                }
-            },
-            label: {
-                formatter: '宜蘭縣\nModerna\n\n19%',
-                color: '#ff4444'
-            },
-            backgroundStyle: {
-                color: '#ff4444',
-                opacity: 0.02
-            }
-        }]
-    },
-    {
-        series: [{
-            type: 'liquidFill',
-            data: [0.049],
-            radius: '70%',
-            outline: {
-                show: true
-            },
-            label: {
-                formatter: '新竹市\nAZ\n\n4.9%'
+                formatter: '臺北市\nAZ\n\n26.4%'
             }
         }]
     },
@@ -496,7 +67,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '新竹市\nModerna\n\n7%',
+                formatter: '臺北市\nModerna\n\n7%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -508,13 +79,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.06],
+            data: [0.199],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '基隆市\nAZ\n\n6%'
+                formatter: '高雄市\nAZ\n\n19.9%'
             }
         }]
     },
@@ -522,7 +93,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.32,
+                value: 0.06,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -535,7 +106,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '基隆市\nModerna\n\n32%',
+                formatter: '高雄市\nModerna\n\n6%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -547,13 +118,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.08],
+            data: [0.268],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '新竹縣\nAZ\n\n8%'
+                formatter: '臺中市\nAZ\n\n26.8%'
             }
         }]
     },
@@ -561,7 +132,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.32,
+                value: 0.07,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -574,7 +145,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '新竹縣\nModerna\n\n32%',
+                formatter: '臺中市\nModerna\n\n7%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -586,13 +157,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.132],
+            data: [0.302],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '花蓮縣\nAZ\n\n13.2%'
+                formatter: '桃園市\nAZ\n\n30.2%'
             }
         }]
     },
@@ -600,7 +171,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.21,
+                value: 0.04,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -613,7 +184,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '花蓮縣\nModerna\n\n21%',
+                formatter: '桃園市\nModerna\n\n4%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -625,13 +196,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.058],
+            data: [0.306],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '南投縣\nAZ\n\n5.8%'
+                formatter: '臺南市\nAZ\n\n30.6%'
             }
         }]
     },
@@ -639,7 +210,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.6,
+                value: 0.04,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -652,7 +223,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '南投縣\nModerna\n\n60%',
+                formatter: '臺南市\nModerna\n\n4%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -664,13 +235,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.082],
+            data: [0.194],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '嘉義市\nAZ\n\n8.2%'
+                formatter: '彰化縣\nAZ\n\n19.4%'
             }
         }]
     },
@@ -678,7 +249,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.21,
+                value: 0.07,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -691,7 +262,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '嘉義市\nModerna\n\n21%',
+                formatter: '彰化縣\nModerna\n\n7%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -703,13 +274,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.063],
+            data: [0.142],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '臺東縣\nAZ\n\n6.3%'
+                formatter: '屏東縣\nAZ\n\n14.2%'
             }
         }]
     },
@@ -717,7 +288,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.41,
+                value: 0.02,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -730,7 +301,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '臺東縣\nModerna\n\n41%',
+                formatter: '屏東縣\nModerna\n\n2%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -742,13 +313,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.04],
+            data: [0.233],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '澎湖縣\nAZ\n\n4%'
+                formatter: '雲林縣\nAZ\n\n23.3%'
             }
         }]
     },
@@ -756,7 +327,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.46,
+                value: 0.08,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -769,7 +340,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '澎湖縣\nModerna\n\n46%',
+                formatter: '雲林縣\nModerna\n\n8%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -781,13 +352,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.156],
+            data: [0.225],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '金門縣\nAZ\n\n15.6%'
+                formatter: '嘉義縣\nAZ\n\n22.5%'
             }
         }]
     },
@@ -795,7 +366,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.27,
+                value: 0,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -808,7 +379,7 @@ var options = [{
                 }
             },
             label: {
-                formatter: '金門縣\nModerna\n\n27%',
+                formatter: '嘉義縣\nModerna\n\n0%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -820,13 +391,13 @@ var options = [{
     {
         series: [{
             type: 'liquidFill',
-            data: [0.024],
+            data: [0.302],
             radius: '70%',
             outline: {
                 show: true
             },
             label: {
-                formatter: '連江縣\nAZ\n\n2.4%'
+                formatter: '宜蘭縣\nAZ\n\n30.2%'
             }
         }]
     },
@@ -834,7 +405,7 @@ var options = [{
         series: [{
             type: 'liquidFill',
             data: [{
-                value: 0.18,
+                value: 0.02,
                 itemStyle: {
                     color: '#ff7777',
                     opacity: 0.7
@@ -847,7 +418,436 @@ var options = [{
                 }
             },
             label: {
-                formatter: '連江縣\nModerna\n\n18%',
+                formatter: '宜蘭縣\nModerna\n\n2%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.181],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '苗栗縣\nAZ\n\n18.1%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.05,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '苗栗縣\nModerna\n\n5%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.23],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '南投縣\nAZ\n\n23%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.15,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '南投縣\nModerna\n\n15%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.194],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '新竹市\nAZ\n\n19.4%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.04,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '新竹市\nModerna\n\n4%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.302],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '基隆市\nAZ\n\n30.2%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.1,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '基隆市\nModerna\n\n10%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.233],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '新竹縣\nAZ\n\n23.3%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.15,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '新竹縣\nModerna\n\n15%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.316],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '花蓮縣\nAZ\n\n31.6%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.14,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '花蓮縣\nModerna\n\n14%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.307],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '嘉義市\nAZ\n\n30.7%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.11,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '嘉義市\nModerna\n\n11%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.21],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '臺東縣\nAZ\n\n21%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.15,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '臺東縣\nModerna\n\n15%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.181],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '澎湖縣\nAZ\n\n18.1%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.3,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '澎湖縣\nModerna\n\n30%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.271],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '金門縣\nAZ\n\n27.1%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.15,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '金門縣\nModerna\n\n15%',
+                color: '#ff4444'
+            },
+            backgroundStyle: {
+                color: '#ff4444',
+                opacity: 0.02
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [0.412],
+            radius: '70%',
+            outline: {
+                show: true
+            },
+            label: {
+                formatter: '連江縣\nAZ\n\n41.2%'
+            }
+        }]
+    },
+    {
+        series: [{
+            type: 'liquidFill',
+            data: [{
+                value: 0.17,
+                itemStyle: {
+                    color: '#ff7777',
+                    opacity: 0.7
+                }
+            }],
+            radius: '70%',
+            outline: {
+                itemStyle: {
+                    borderColor: '#ff7777'
+                }
+            },
+            label: {
+                formatter: '連江縣\nModerna\n\n17%',
                 color: '#ff4444'
             },
             backgroundStyle: {
@@ -857,6 +857,7 @@ var options = [{
         }]
     }
 ];
+
 var charts = [];
 for (var i = 0; i < options.length; ++i) {
     var chart = echarts.init($('.chart')[i]);
