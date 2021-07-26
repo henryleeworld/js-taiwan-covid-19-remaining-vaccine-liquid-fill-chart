@@ -11,5 +11,5 @@ $ git clone
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/rQBC3iD.png)
+![](https://i.imgur.com/jiZvCMm.png)
 > 水球圖是填充儀表盤的一種，適合於展現單個百分比資料的圖表型別
